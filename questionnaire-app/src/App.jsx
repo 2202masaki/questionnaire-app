@@ -5,15 +5,42 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 function CreateForm() {
   return (
-    <div className="App">
-      <h1>アンケートアプリ</h1>
-      <input placeholder="アンケートのタイトル" />
-      <input placeholder="質問文（例：好きなランチは？）" />
-      <input placeholder="選択肢A（例：ラーメン）" />
-      <input placeholder="選択肢B（例：カレー）" />
-      <button>作成</button>
+    <div className="container">
+      <div className="card">
+        <h1>アンケートアプリ</h1>
+
+        <input
+          type="text"
+          placeholder="アンケートのタイトル"
+        />
+
+        <input
+          type="text"
+          placeholder="質問文（例：好きなランチ）"
+        />
+
+        <input
+          type="text"
+          placeholder="選択肢A（例：ラーメン）"
+        />
+
+        <input
+          type="text"
+          placeholder="選択肢B（例：カレー）"
+        />
+
+        <button>作成</button>
+      </div>
     </div>
-  )
+  //   <div className="App">
+  //     <h1>アンケートアプリ</h1>
+  //     <input placeholder="アンケートのタイトル" />
+  //     <input placeholder="質問文（例：好きなランチは？）" />
+  //     <input placeholder="選択肢A（例：ラーメン）" />
+  //     <input placeholder="選択肢B（例：カレー）" />
+  //     <button>作成</button>
+  //   </div>
+   )
 }
 //function App() { return <CreateForm /> }
 //export default App
